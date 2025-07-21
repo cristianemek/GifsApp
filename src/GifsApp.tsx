@@ -27,7 +27,7 @@ export const GifsApp = () => {
     setPreviousTerms([query, ...previousTerms].splice(0, 8));
 
     const gifs = await getGifsByQuery(query);
-    setGifs(gifs);
+    setGifs(gif);
   };
 
   return (
